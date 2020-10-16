@@ -1,0 +1,55 @@
+#content {
+    margin: 50px auto;
+    justify-content: center;
+}
+
+#personalContent {
+    /*height: 500px;*/
+    text-align: center;
+    font-size: 18px;
+}
+
+#skillContent {
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto
+}
+
+#personalContent>img{
+    margin-bottom: 15px;
+}
+
+#personalContent > h5 {
+    margin-bottom: 15px;
+}
+
+#personalContent > a {
+    margin-bottom: 10px;
+}
+
+.header{
+    background:#eee;
+    padding: 15px;
+    border-bottom: #ccc solid 1px;
+    border-top: #ccc solid 1px;
+}
+
+.header:last-child{
+    background:#eee;
+    padding: 15px;
+    border-bottom: #ccc solid 0;
+    border-top: #ccc solid 1px;
+}
+
+.header:first-child{
+    background:#eee;
+    padding: 15px;
+    border-bottom: #ccc solid 1px;
+    border-top: #ccc solid 0;
+}
+
+
