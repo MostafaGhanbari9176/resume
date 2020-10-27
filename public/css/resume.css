@@ -7,6 +7,8 @@
     /*height: 500px;*/
     text-align: center;
     font-size: 18px;
+    position: sticky;
+    top: 15px;
 }
 
 #skillContent {
@@ -50,6 +52,24 @@ img {
     padding: 15px;
     border-bottom: #ccc solid 1px;
     border-top: #ccc solid 0;
+}
+
+p{
+    white-space: pre-line;
+}
+
+.row{
+    padding:15px;
+    margin:0
+}
+
+.card-text{
+    text-align: left;
+}
+
+span{
+    padding:5px!important;
+    margin:2px
 }
 
 
