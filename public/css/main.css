@@ -190,24 +190,84 @@ a:hover {
     border-top: #ccc solid 0;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.left.app{
-    width:60%
+.left.app {
+    width: 60%
 }
 
-.right.app{
+.right.app {
     width: 39%
 }
 
-.text{
+.text {
     white-space: pre-line;
 }
 
-.about{
+#imageContainer {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(3, 169, 244, 0.09);
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
 
+#image {
+    max-height: 720px;
+    max-width: 405px;
+    width: 70vw;
+    height: 70vh;
+    background: no-repeat center center;
+    background-size: contain;
+}
+
+.arrow {
+    background-color: #999;
+    color: white;
+    padding: 15px;
+    max-height: 720px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow:first-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.arrow:last-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 17px -4px #03A9F4;
+}
+
+#close {
+    position: fixed;
+    color: #F44336;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 35px;
 }
 
 
