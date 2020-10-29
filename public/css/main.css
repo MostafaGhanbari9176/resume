@@ -225,6 +225,7 @@ ul {
     height: 90vh;
     background: no-repeat center center;
     background-size: contain;
+    z-index: 1;
 }
 
 .arrow {
@@ -263,6 +264,16 @@ ul {
     color: #F44336;
     top: 20px;
     right: 20px;
+    cursor: pointer;
+    font-size: 35px;
+    z-index: 2;
+}
+
+#progress{
+    position: fixed;
+    color: #03A9F4;
+    top: 50%;
+    right: 50%;
     cursor: pointer;
     font-size: 35px;
 }
