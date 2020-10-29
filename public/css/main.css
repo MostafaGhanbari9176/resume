@@ -221,10 +221,8 @@ ul {
 }
 
 #image {
-    max-height: 720px;
-    max-width: 405px;
-    width: 70vw;
-    height: 70vh;
+    width: 90vw;
+    height: 90vh;
     background: no-repeat center center;
     background-size: contain;
 }
@@ -233,8 +231,7 @@ ul {
     background-color: #999;
     color: white;
     padding: 15px;
-    max-height: 720px;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +253,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #eee;
     border-radius: 15px;
     box-shadow: 0 0 17px -4px #03A9F4;
 }
