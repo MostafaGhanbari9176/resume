@@ -50,6 +50,8 @@ const imageList = [
         images: [
             {img: "/img/coursefinder/ic.png", showing: false},
             {img: "/img/coursefinder/1.png", showing: false},
+            {img: "/img/coursefinder/26.png", showing: false},
+            {img: "/img/coursefinder/27.png", showing: false},
             {img: "/img/coursefinder/2.png", showing: false},
             {img: "/img/coursefinder/3.png", showing: false},
             {img: "/img/coursefinder/4.png", showing: false},
@@ -73,6 +75,7 @@ const imageList = [
             {img: "/img/coursefinder/22.png", showing: false},
             {img: "/img/coursefinder/23.png", showing: false},
             {img: "/img/coursefinder/24.png", showing: false},
+            {img: "/img/coursefinder/25.png", showing: false},
         ]
     },
     {
@@ -93,6 +96,30 @@ const imageList = [
             {img: "/img/awesome/13.png", showing: false},
             {img: "/img/awesome/14.png", showing: false},
             {img: "/img/awesome/15.png", showing: false}
+        ]
+    },
+    {
+        name: "autoservice",
+        images: [
+            {img: "/img/autoservice/1.png", showing: false},
+            {img: "/img/autoservice/2.png", showing: false},
+            {img: "/img/autoservice/3.png", showing: false},
+            {img: "/img/autoservice/4.png", showing: false},
+            {img: "/img/autoservice/5.png", showing: false},
+            {img: "/img/autoservice/6.png", showing: false},
+            {img: "/img/autoservice/7.png", showing: false}
+        ]
+    },
+    {
+        name: "club",
+        images: [
+            {img: "/img/club/1.png", showing: false},
+            {img: "/img/club/2.png", showing: false},
+            {img: "/img/club/3.png", showing: false},
+            {img: "/img/club/4.png", showing: false},
+            {img: "/img/club/5.png", showing: false},
+            {img: "/img/club/6.png", showing: false},
+            {img: "/img/club/7.png", showing: false}
         ]
     }
 ]
